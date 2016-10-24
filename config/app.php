@@ -162,6 +162,9 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Riari\Forum\ForumServiceProvider::class,
+        Riari\Forum\Frontend\ForumFrontendServiceProvider::class,
+        'GrahamCampbell\Exceptions\ExceptionsServiceProvider',
 
         /*
          * Package Service Providers...

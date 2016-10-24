@@ -19,7 +19,7 @@
         <a href="#" class="list-group-item"><i class="fa fa-history"></i> My payments</a>
         <a href="{{route('tickets.index')}}" class="list-group-item"><i class="fa fa-life-ring"></i> Support tickets</a>
         <a href="{{route('settings.index')}}" class="list-group-item"><i class="fa fa-gear"></i> Settings</a>
-        <a href="{{url('logout')}}" class="list-group-item"><i class="fa fa-sign-out"></i> Sign out</a>
+        <a href="{{url('/logout')}}" class="list-group-item"><i class="fa fa-sign-out"></i> Sign out</a>
       </ul>
     </div>
   </div>
