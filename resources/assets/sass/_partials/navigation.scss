@@ -1,0 +1,19 @@
+.navbar-default {
+  background-color: $navbar-background;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  box-shadow: 0 2px 0 $navbar-hover;
+  color: $navbar-hover;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  box-shadow: 0 3px 0 $navbar-active-bg;
+  color: $primary;
+}

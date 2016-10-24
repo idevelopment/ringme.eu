@@ -1,0 +1,61 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: $color-white;
+}
+
+.jumbotron {
+    color: $jumbotron-text;
+    background-color: $jumbotron-bg;
+}
+
+.nopadding {
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.intro ul
+ {
+   list-style-type: none;
+   display: table;
+   table-layout: fixed;
+ }
+.intro li {
+    text-align: center;
+    display: table-cell;
+  }
+.intro li p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+.intro li h5 {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+.intro li .btn {
+    background: $color-blue;
+    line-height: 40px;
+    color: $color-white;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+
+.intro li .btn:hover {
+    background: #fff;
+    color: $color-blue;
+  }
+.intro .icon {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 1px solid $color-blue;
+    color: $color-blue;
+    font-size: 40px;
+    text-align: center;
+    line-height: 98px;
+    display: inline-block;
+  }

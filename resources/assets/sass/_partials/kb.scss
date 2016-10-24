@@ -1,0 +1,45 @@
+.kb-list {
+  padding: 15px;
+  font-size: 12px;
+}
+
+.kb-list .fa {
+  color: $color-blue;
+  position: absolute;
+  left: 0;
+}
+
+.kb-list header h4 {
+  padding-left: 30px;
+  position: relative;
+}
+
+.kb-list header h4 i {
+  top: 4px;
+}
+
+.kb-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.kb-list ul li {
+  display: block;
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.kb-list ul li a {
+  display: block;
+  color: inherit;
+}
+
+.kb-list ul li a:hover {
+  color: $color-black;
+}
+
+.kb-list ul li .fa {
+  top: 0px;
+  font-size: 14px;
+}

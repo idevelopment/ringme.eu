@@ -1,0 +1,158 @@
+.pricing-header p {
+    color: #000;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.pricing-bigger {
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.pricing-bigger .pricing-choose {
+    background-color: $color-white;
+    font-weight: bold;
+}
+
+
+.pricing-bigger .pricing-border {
+    border-right: 1px solid #ddd;
+}
+
+.pricing-bigger .pricing-plan {
+    background-color: $color-white;
+    color: $color-black;
+}
+
+.pricing-bigger .pricing-header {
+    padding: 40px 20px;
+    border-top: 1px solid #f1f1f4;
+}
+
+.pricing-bigger .pricing-body .fa-close {
+    color: #E52723;
+}
+
+.pricing-bigger .pricing-body .fa-check {
+    color: #5cb85c;
+}
+
+.pricing-bigger .pricing-body .option {
+  font-weight:normal;
+}
+
+.pricing-bigger .pricing-body ul {
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-bigger .pricing-body ul li {
+    list-style: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.pricing-bigger .pricing-body ul li:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.pricing-bigger .pricing-header h3 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    color: $color-black;
+    text-transform: uppercase;
+}
+
+.pricing-bigger li:nth-child(2),
+.pricing-bigger li:nth-child(4),
+.pricing-bigger li:nth-child(6),
+.pricing-bigger li:nth-child(8),
+.pricing-bigger li:nth-child(10),
+.pricing-bigger li:nth-child(12) {
+    background-color: #f1f1f1;
+}
+
+
+#pricing-table .pricing .pricing-table .pricing-header {
+    position: relative;
+    background: #34495e;
+    padding: 54px 32px;
+    text-align: center;
+}
+
+#pricing-table .pricing .pricing-table .pricing-header .pricing-title {
+    color: $color-white;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 0 30px;
+    padding: 0 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate {
+    font-size: 70px;
+    font-weight: 700;
+    color: $color-white;
+    position: relative;
+    text-align: center;
+}
+
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate sup {
+    font-size: 24px;
+    right: -10px;
+    position: relative;
+    top: -30px;
+    color: $color-white;
+}
+
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate span {
+    font-size: 16px;
+    color: $color-white;
+    margin-left: -10px;
+    text-transform: uppercase;
+}
+
+#pricing-table .pricing .pricing-list {
+    padding: 20px 0;
+    background: $color-white;
+    border: 1px solid #e3e3e3;
+}
+
+#pricing-table .pricing .pricing-list ul {
+    padding: 0px;
+    display: table;
+    margin: 0px auto;
+}
+
+#pricing-table .pricing .pricing-list ul li {
+    list-style: none;
+    border-bottom: 1px solid #EAECEB;
+    font-size: 15px;
+    line-height: 42px;
+    text-transform: capitalize;
+}
+
+#pricing-table .pricing .pricing-list ul li:last-child {
+    border: none;
+}
+
+#pricing-table .pricing .pricing-list ul li i {
+    margin-right: 12px;
+}
+
+#pricing-table .pricing .pricing-list ul li span {
+    color: #34495e;
+}
+
+#pricing-table .btn {
+    border-radius: 0;
+    font-size: 15px;
+    padding: 15px;
+}

@@ -1,0 +1,46 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// Color palette
+$primary:            #dd4b39;
+$secondary:          #dd4b39;
+$gray-white:         #dcdcdc;
+$gray:               #999;
+$black:              #ddd;
+
+$bg-red:             #af1f2e;
+$bg-green:           #2d9340;
+
+// panels
+$panel-default-color:  rgba(247, 244, 247, 1);
+$panel-heading-border: #f1f1f1;
+
+$border-h6:           rgba(0, 0, 0, .1);
+
+$navbar-background:   #fff;
+$navbar-border:       #4a88ce;
+$navbar-link:         #000;
+$navbar-hover:        #3668a0;
+$navbar-active-bg:    #3668a0;
+
+$jumbotron-text:     #f1f1f1;
+$jumbotron-bg:       #3668a0;
+
+
+$color-white:        #fff;
+$color-blue:         #3668a0;
+$color-black:        #111111;
+$color-light-blue:   #3c8dbc;
+$color-green:        #00a65a;
+$color-gray:         #ebeff2;
+$color-lighter-gray: #e7eaec;
+
+
+@import "_partials/general";
+@import "_partials/navigation";
+@import "_partials/sections";
+@import "_partials/buttons";
+@import "_partials/forms";
+
+@import "_partials/kb";
+@import "_partials/price";
+
+@import "_partials/footer";

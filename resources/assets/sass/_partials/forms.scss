@@ -1,0 +1,46 @@
+.formRow:last-child input, .formRow:last-child textarea, .formRow:last-child select, .uneditable-input {margin-bottom: 0}
+.formRow small {display:block;font-size:11px;color:#999;line-height:14px}
+.formSep {margin-bottom:12px;padding-bottom:12px;border-bottom:1px dashed #dcdcdc}
+
+.stacked select, .stacked input[type="text"],.stacked textarea {display:block}
+
+.help-block {font-size:11px;line-height:14px}
+
+.form-horizontal .help-block {margin-top:2px}
+legend+.form-group {margin-top:20px}
+.form-horizontal .form-group {margin-bottom:14px}
+
+input.focused {border-color: rgba(82,168,236,.8);-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);outline: 0;z-index:2;position:relative}
+
+.f_warning > label,.f_warning .help-block,.f_warning .help-inline{color:#c09853}
+.f_warning input,.f_warning select,.f_warning textarea{color:#c09853;border-color:#c09853}
+.f_warning input:focus,.f_warning select:focus,.f_warning textarea:focus{-webkit-box-shadow:0 0 6px #dbc59e;-moz-box-shadow:0 0 6px #dbc59e;box-shadow:0 0 6px #dbc59e;border-color:#a47e3c}
+.f_warning .input-prepend .add-on,.f_warning .input-append .add-on{color:#c09853;background-color:#fcf8e3;border-color:#c09853}
+
+.f_error input,.f_error select,.f_error textarea{color:#b94a48;border-color:#b94a48}
+.f_error input:focus,.f_error select:focus,.f_error textarea:focus{-webkit-box-shadow:0 0 6px #d59392;-moz-box-shadow:0 0 6px #d59392;box-shadow:0 0 6px #d59392;border-color:#953b39}
+.f_error .input-prepend .add-on,.f_error .input-append .add-on{color:#b94a48;background-color:#f2dede;border-color:#b94a48}
+.f_error label.error {display:block;font-size:11px;font-weight:700;color:#C62626}
+input[type="text"] + label.error,input[type="password"] + label.error, select + label.error, textarea + label.error {margin-top:6px}
+.f_error label.radio + label.error,.f_error label.checkbox + label.error {margin-top:5px}
+.input-prepend.f_error label.error,.input_append.f_error  label.error {margin-top:4px}
+.control-group.f_error label.error {margin-top:2px}
+.checkbox-inline + label.error, .radio-inline + label.error {margin-top:4px}
+
+.f_success > label,.f_success .help-block,.f_success .help-inline{color:#468847}
+.f_success input,.f_success select,.f_success textarea{color:#468847;border-color:#468847}
+.f_success input:focus,.f_success select:focus,.f_success textarea:focus{-webkit-box-shadow:0 0 6px #7aba7b;-moz-box-shadow:0 0 6px #7aba7b;box-shadow:0 0 6px #7aba7b;border-color:#356635}
+.f_success .input-prepend .add-on,.f_success .input-append .add-on{color:#468847;background-color:#dff0d8;border-color:#468847}
+
+.ui-tooltip label {margin-bottom:0}
+.f_legend {font-size:16px;line-height:16px;padding-bottom:10px;margin-bottom:22px;border-bottom:1px solid #dcdcdc}
+.radio.inline, .checkbox.inline {margin-left:0 !important;margin-right:10px}
+
+.f_req {font-size:13px;color:#ff0000;font-family: helvetica, arial, sans-serif}
+.form-horizontal .controls.text_line {line-height:25px}
+
+.row input[class*="span"],.row textarea[class*="span"],.row select[class*="span"] {display:inline-block}
+.row input[class*="span"] + input[class*="span"], .row textarea[class*="span"] + textarea[class*="span"], .row select[class*="span"] + select[class*="span"] {display:block}
+
+textarea {resize: none;}
+input[type="radio"], input[type="checkbox"] {margin-top:2px;}
