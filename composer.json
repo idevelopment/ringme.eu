@@ -9,7 +9,8 @@
         "laravel/framework": "5.3.*",
         "riari/laravel-forum": "~4.0",
         "riari/laravel-forum-frontend": "~1.0",
-        "graham-campbell/exceptions": "^9.1"
+        "graham-campbell/exceptions": "^9.1",
+        "themsaid/laravel-langman": "^1.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

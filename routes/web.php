@@ -31,8 +31,13 @@ Route::get('/support', 'SupportController@index')->name('support.index');
 
 Route::get('/portal', 'PortalController@index')->name('portal.index');
 
+Route::get('/payments', 'PaymentsController@index')->name('payments.index');
+
 Route::get('/tickets', 'TicketsController@index')->name('tickets.index');
-Route::get('/tickets/edit/{id}', 'PortalController@index')->name('portal.index');
-Route::get('/tickets/remove/{id}', 'PortalController@index')->name('portal.index');
+Route::get('/tickets/create', 'TicketsController@create')->name('tickets.create');
+Route::get('/tickets/edit/{id}', 'PortalController@index')->name('tickets.edit');
+Route::get('/tickets/close/{id}', 'PortalController@close')->name('tickets.close');
+Route::get('/tickets/delete/{id}', 'PortalController@delete')->name('tickets.close');
+
 
 Route::get('/settings', 'PortalController@index')->name('settings.index');

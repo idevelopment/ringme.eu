@@ -165,6 +165,7 @@ return [
         Riari\Forum\ForumServiceProvider::class,
         Riari\Forum\Frontend\ForumFrontendServiceProvider::class,
         'GrahamCampbell\Exceptions\ExceptionsServiceProvider',
+        Themsaid\Langman\LangmanServiceProvider::class,
 
         /*
          * Package Service Providers...
